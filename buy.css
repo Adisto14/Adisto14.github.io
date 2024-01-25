@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: sans-serif;
+  line-height: 1.5;
+  background: white(72, 71, 71);
+}
+
+.page-container {
+  width: 480px;
+  max-width: 100%;
+  padding: 16px;
+  margin: 0 auto;
+}
+.section {
+  margin-bottom: 32px;
+}
+
+header {
+  background-image: url(/images/background.jpg);
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.profile-image img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: -100px;
+  border-radius: 10%;
+  border-style: double;
+  border-color: #000000;
+  width: 50%;
+}

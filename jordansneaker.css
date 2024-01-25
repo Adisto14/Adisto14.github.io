@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: sans-serif;
+  line-height: 1.5;
+  background: white(72, 71, 71);
+}
+
+header {
+  background-image: url(/images/background.jpg);
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+}
+.page-container {
+  width: 480px;
+  max-width: 100%;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.profile-image img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+  margin-top: -100px;
+  border-radius: 10%;
+  border-style: double;
+  border-color: #000000;
+}
+
+h1.Titlu-articol {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  font-family: papyrus;
+  color: rgb(50, 50, 50);
+}
+
+.tags {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.button-bar li {
+  position: fixed;
+  top: 80px;
+  right: 5%;
+  border-style: outset;
+  border-color: black;
+  border-radius: 50%;
+  text-align: center;
+  list-style: none;
+  font-size: 1.7rem;
+  font-family: courier;
+  font-weight: bold;
+  padding: 4px;
+  margin: 4px;
+}
+
+a {
+  color: #000000;
+}
+
+.clothes-image img {
+  padding: 2px;
+  margin: 8px;
+  border-width: 5px;
+  border-radius: 10%;
+  max-width: 100%;
+  border-bottom-style: double;
+  border-top-style: double;
+  border-color: black;
+  display: block;
+}
+
+.contact-title {
+  text-align: center;
+  color: #000000;
+  margin: 4px;
+  padding: 4px;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+  font-size: 1.3rem;
+  font-family: courier;
+  font-weight: bold;
+  padding: 4px;
+  margin: 4px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+}

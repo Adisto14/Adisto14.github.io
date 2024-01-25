@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: sans-serif;
+  line-height: 1.5;
+  background: white(72, 71, 71);
+}
+
+.page-container {
+  width: 480px;
+  max-width: 100%;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+/* Header styles */
+header {
+  background-image: url(/images/background.jpg);
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Profile styles */
+.profile-image img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+  margin-top: -100px;
+  border-radius: 10%;
+  border-style: double;
+  border-color: #000000;
+}
+
+.profile-details {
+  text-align: center;
+  font-family: papyrus;
+  font-size: 1.5rem;
+  margin: 24px 0;
+  color: rgb(0, 0, 0);
+}
+
+.profile-details h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: papyrus;
+  font-size: 3rem;
+  margin: 6px;
+  padding: 20px;
+  color: black;
+}
+
+.tags {
+  text-align: center;
+  font-family: papyrus;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.clothes-title {
+  font-size: 2.5rem;
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+  font-family: papyrus;
+}
+
+.articole-details {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.nume-articol {
+  border-style: double;
+  border-radius: 35%;
+  margin: 8px;
+  padding: 12px;
+  font-family: papyrus;
+  text-align: center;
+  font-size: 1.5 rem;
+}
+
+hr {
+  margin: 15px -20px 20px;
+  border: 0;
+  border-top: 1px solid black;
+}
+
+.articole-details .btn-outline {
+  text-align: center;
+  color: black;
+  border-radius: 5%;
+  margin: 8px;
+}
+
+.articole-details .btn-outline:hover {
+  background-color: black;
+  color: grey;
+  border-right-style: double;
+  border-left-style: double;
+  border-bottom-style: double;
+  border-color: grey;
+  border-radius: 5px;
+}
+
+.articole-details img {
+  padding: 2px;
+  margin: 8px;
+  border-width: 5px;
+  border-radius: 10%;
+  max-width: 100%;
+  border-bottom-style: double;
+  border-top-style: double;
+  border-color: black;
+  display: block;
+}
+
+.contact-title {
+  text-align: center;
+  color: #000000;
+  margin: 4px;
+  padding: 4px;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+  font-size: 1.3rem;
+  font-family: courier;
+  font-weight: bold;
+  padding: 4px;
+  margin: 4px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nav-bar {
+  position: static;
+}
+.button-bar {
+  position: fixed;
+  top: 80px;
+  right: 5%;
+  text-align: center;
+  border-style: outset;
+  border-color: black;
+  border-radius: 50%;
+}
+
+a {
+  color: #000000;
+}
+
+.buy-button {
+  position: fixed;
+  top: 80px;
+  left: 5%;
+  text-align: center;
+  border-style: outset;
+  border-color: black;
+  border-radius: 50%;
+}
