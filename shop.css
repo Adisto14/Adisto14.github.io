@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: sans-serif;
+  line-height: 1.5;
+  background: white(72, 71, 71);
+}
+
+.page-container {
+  width: 780px;
+  max-width: 100%;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+/* Header styles */
+header {
+  background-image: url(/images/background.jpg);
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+}
+.profile-image img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+  margin-top: -100px;
+  border-radius: 10%;
+  border-style: double;
+  border-color: #000000;
+}
+
+.profile-details h1 {
+  text-align: center;
+  margin: 6px;
+  padding-top: 20px;
+  font-size: 3rem;
+  font-family: papyrus;
+  text-decoration: underline;
+}
+
+.tags {
+  text-align: center;
+  font-family: papyrus;
+  font-size: 1.5rem;
+}
+table {
+  margin-top: 30px;
+  display: table;
+  border-color: #000000;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+tr,
+td {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  background-color: lightgray;
+}
+
+td.total {
+  text-decoration: underline;
+}
+
+td.nume-articol {
+  background-color: grey;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+td.total {
+  font-weight: 900;
+  text-decoration: none;
+}
+td.order {
+  font-weight: 700;
+}
+
+td.order:hover {
+  background-color: green;
+  text-decoration: underline;
+}
+
+.button-bar li {
+  position: fixed;
+  top: 80px;
+  right: 5%;
+  border-style: outset;
+  border-color: black;
+  border-radius: 50%;
+  text-align: center;
+  list-style: none;
+  font-size: 1.7rem;
+  font-family: courier;
+  font-weight: bold;
+  padding: 4px;
+  margin: 4px;
+}
+
+h2.contact-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+li {
+  text-align: center;
+  list-style: none;
+  font-size: 1.3rem;
+  font-family: courier;
+  font-weight: bold;
+  padding: 4px;
+  margin: 4px;
+}
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+}
+
+input.comanda {
+  border: none;
+  background-color: lightgray;
+  font-weight: 800;
+}
+input.comanda:hover {
+  background-color: yellowgreen;
+  text-decoration: underline;
+}
